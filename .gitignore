@@ -4,6 +4,7 @@
 /public/hot           # Hot reload file for Laravel Mix
 /public/storage       # Symlinked storage directory for public files
 /storage/*.key        # Sensitive files in storage directory
+/public/js.zip
 /vendor               # Composer dependencies (do not commit)
 .env                  # Environment file containing sensitive data
 .env.backup           # Backup of environment file (exclude for security)
