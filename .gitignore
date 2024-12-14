@@ -1,0 +1,35 @@
+# Laravel-specific files
+/node_modules         # Node.js modules
+/public/build         # Compiled frontend assets (if using Laravel Mix)
+/public/hot           # Hot reload file for Laravel Mix
+/public/storage       # Symlinked storage directory for public files
+/storage/*.key        # Sensitive files in storage directory
+/vendor               # Composer dependencies (do not commit)
+.env                  # Environment file containing sensitive data
+.env.backup           # Backup of environment file (exclude for security)
+.env.production       # Production environment configuration
+.phpunit.result.cache # PHPUnit cache file for test results
+Homestead.json        # Homestead configuration file
+Homestead.yaml        # Homestead configuration file
+auth.json             # Authentication settings file for Composer
+npm-debug.log         # NPM debug logs
+yarn-error.log        # Yarn error logs
+
+# IDE and editor-specific files
+/.fleet               # Fleet editor configuration
+/.idea                # JetBrains/PhpStorm project files
+/.vscode              # Visual Studio Code settings
+
+# System-specific files
+.DS_Store             # macOS specific files
+Thumbs.db             # Windows thumbnail cache
+
+# OS and IDE-specific configuration files (added for completeness)
+.vscode/              # VSCode workspace files (if you don't want to track them)
+.idea/                # JetBrains IDEs project files (if you don't want them in your repo)
+npm-debug.log         # In case you use npm and don't want the logs tracked
+
+# Additional custom files (if any)
+# Add other custom files or directories to exclude (if needed)
+
+
